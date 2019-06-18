@@ -84,7 +84,10 @@ a:active {
     border: 6px solid #fff;
     background-color: grey;
     background-size: cover;
-    background-image: url('../images/DP_IMage.jpg');
+    background-image: url('../images/New_DP.jpg');
+    object-fit: cover;
+    object-position: center;
+    background-position-y: -40PX;
 }
 @media screen and (max-width:990px) {
     .user-image{
@@ -96,6 +99,7 @@ a:active {
 @media screen and (max-width:600px) {
     .user-image{
         height: 150px;
+        background-position-y: -25PX;
         width: 150px;
         border: 4px solid #fff;
     }
