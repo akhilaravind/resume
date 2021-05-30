@@ -1091,8 +1091,8 @@ h1 + .line{
 
 .skills-list{
   display: grid;
-  grid-template-rows: repeat(6, 10%);
-  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(9, 10%);
+  grid-template-columns: repeat(3, 30%);
   grid-gap: 6px;
 }
 
@@ -1346,9 +1346,28 @@ h1 + .line{
 .row-project-box{
   margin-top: -30px;
 }
+.js-ajax-form .form-control{
+  background-color: rgba(255,255,255, .8);
+}
+.js-ajax-form .form-control::placeholder{
+  color:rgba(0,0,0,.8)
+}
+.js-ajax-form .form-control:focus{
+  border-bottom: 1px solid #d5f21b;
+}
 
 .col-project-box{
   margin-top: 30px;
+}
+@media (max-width:768px){
+  .col-project-box,.project-box-inner {
+    height: 280px!important;
+    color:white;
+  }
+  .project-category{
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .project-box{
